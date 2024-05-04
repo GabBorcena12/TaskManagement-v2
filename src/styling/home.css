@@ -1,0 +1,20 @@
+.home-header-container {
+  width: 50vw;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+}
+
+.filter-container {
+    padding :1rem;
+}
+.filter-container > input {
+    width: 25rem;
+    background-color: #f5e3c0;
+    height: 2.5rem;
+    border: 1px solid #1e1e1e;
+    border-radius: 5px;
+    color: black;
+    font-size: large;
+    padding:5px;
+}

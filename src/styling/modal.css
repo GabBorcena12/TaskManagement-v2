@@ -1,0 +1,33 @@
+.modal-details-container {
+  padding: 1.5rem;
+}
+
+.modal-button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5rem;
+}
+
+.modal-close-button {
+  color: white;
+  font-weight: 1000;
+  font-size: large;
+  background-color: transparent;
+  border: none;
+  width: 1.5rem;
+}
+
+.modal-close-button:hover {
+  background-color: transparent;
+  color: rgb(73, 73, 73);
+}
+
+.modal-header {
+  font-size: x-large;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.modal-content {
+  font-weight: 100;
+}

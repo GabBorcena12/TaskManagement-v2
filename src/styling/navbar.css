@@ -1,0 +1,59 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 1rem; /* Adjust as needed */
+    background-color: transparent;
+    z-index: 9999999;
+  }
+  
+  .Logo:hover {
+    transform: rotate(45deg);
+  }
+
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw; /* Adjust as needed */
+    width: 100%;
+    padding: 0 5rem; /* Adjust as needed */
+  }
+  
+  .navbar-logo img {
+    float: left;
+    height: 50px; /* Adjust the height as needed */
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-left: 2rem;
+  }
+  
+  .nav-item a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 50;
+  }
+  
+  .nav-item a:hover {
+    color: #FF9EAA; /* Change color on hover */
+  }
+  
+  .navbar-text {
+    color: white;
+    text-decoration: none;
+    padding: 2rem;
+    font-size: x-large;
+    font-weight: 50;
+  }
+  
+  .navbar-authenticate-list {
+    width: 50vw;
+    float: left;
+  }
+  
